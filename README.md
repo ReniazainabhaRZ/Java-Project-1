@@ -1,6 +1,6 @@
 # Java-Project-1
 
-# Welcome to My GitHub! 👩‍💻  
+# Welcome to My Projects! 👩‍💻  
 Hi, I'm **Renia Zainabha**! I'm a passionate **Software Developer (Java Full-Stack Developer)** with 7 years of experience in building efficient and scalable solutions.  
 
 ---
@@ -39,6 +39,6 @@ Hi, I'm **Renia Zainabha**! I'm a passionate **Software Developer (Java Full-Sta
 ---
 
 ## 📫 **Contact Me**  
-- **Email**: renia.zainabha@example.com  
+- **Email**: reniakoyakuttyaofficial@gmail.com 
 - **LinkedIn**: [linkedin.com/in/renia-zainabha](https://www.linkedin.com)  
 
