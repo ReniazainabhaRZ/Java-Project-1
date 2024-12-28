@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="aboutPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="253.0" prefWidth="452.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.172" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hacklympics.common.about.AboutController">
+   <children>
+      <ImageView fitHeight="109.0" fitWidth="104.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/images/Icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="129.0" layoutY="4.0" text="HACK LYMPICS">
+         <font>
+            <Font name="Lucida Sans Demibold" size="28.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="41.0" layoutX="122.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="95.0" />
+      <Label layoutX="122.0" layoutY="215.0" prefHeight="21.0" prefWidth="323.0" text="Made with     , Java8 and Python3 by: Michael Wang" wrapText="true">
+         <font>
+            <Font name="Lucida Sans Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="180.0" layoutY="214.0" prefHeight="21.0" prefWidth="26.0" text="♥" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <HBox layoutX="122.0" layoutY="244.0" prefHeight="21.0" prefWidth="236.0">
+         <children>
+            <FontAwesomeIconView glyphName="GITHUB" size="18" translateY="2.0" />
+            <Hyperlink fx:id="githubHyperlink" text="github.com/aesophor/Hacklympics" translateX="2.0" underline="true">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </HBox>
+      <Label alignment="CENTER" layoutX="122.0" layoutY="55.0" prefHeight="33.0" prefWidth="331.0" text="Copyright© 2018 MISLab, National Defense University. All rights reserved." wrapText="true">
+         <font>
+            <Font name="Lucida Sans Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="163.0" prefHeight="41.0" prefWidth="323.0" text="Special thanks to my instructor, Dr. Bau-Hung Yuan and all of the previous developers of this project." wrapText="true">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="122.0" layoutY="97.0" prefHeight="58.0" prefWidth="331.0" text="The Hacklympics project is an online programming examination systems with proctoring mechanisms which is dedicated to those who love techs and code." wrapText="true">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
